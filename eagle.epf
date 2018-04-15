@@ -1,0 +1,21 @@
+[Eagle]
+Version="07 02 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Users/sandy_000/OneDrive/Documents/eagle/nodemcu-devkit-v1.0-master/ESP12E_DEVKIT.lbr"
+UsedLibrary="C:/Users/sandy_000/OneDrive/Documents/eagle/libraries/eagle-stuff-master/kanflo.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="375 25 1125 727"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1200"
+Window="Win_1"
