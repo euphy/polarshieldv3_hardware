@@ -189,7 +189,7 @@
 <text x="8" y="23.76" size="1.27" layer="121" font="vector" ratio="15">GND</text>
 <text x="8.1" y="28.76" size="1.27" layer="121" font="vector" ratio="15">GP_1</text>
 <text x="8.14" y="18.62" size="1.27" layer="121" font="vector" ratio="15">GP_2</text>
-<text x="62.257896875" y="10.4868125" size="3.81" layer="122" font="vector" ratio="15" rot="MR0">Polarshield v3.0e</text>
+<text x="62.257896875" y="10.6868125" size="3.6" layer="122" font="vector" ratio="15" rot="MR0">www.polargraph.co.uk</text>
 <text x="57.82" y="29.9" size="1.27" layer="121" font="vector" ratio="15" rot="SR45">M2_STEP</text>
 <text x="65.44" y="29.9" size="1.27" layer="121" font="vector" ratio="15" rot="SR45">M2_DIR</text>
 <text x="55.28" y="29.9" size="1.27" layer="121" font="vector" ratio="15" rot="SR45">GP_3</text>
@@ -225,20 +225,21 @@
 <text x="5.60644375" y="40.347865625" size="1.27" layer="121" font="vector" ratio="15">SD_MOSI</text>
 <text x="5.6478625" y="42.84786875" size="1.27" layer="121" font="vector" ratio="15">SD_CS</text>
 <text x="62.1" y="5.7" size="1.6764" layer="122" font="vector" ratio="15" rot="MR0">An open source art project.
-2018.06.09</text>
+2018.06.10</text>
 <text x="34.8" y="63.2" size="1.6764" layer="122" font="vector" ratio="15" rot="MR0">SD CARD</text>
 <text x="73" y="59.1" size="1.27" layer="121" font="vector" ratio="12" rot="SR270">SIGNAL</text>
 <text x="70.4" y="59.1" size="1.27" layer="121" font="vector" ratio="12" rot="SR270">VCC</text>
 <text x="67.9" y="59.1" size="1.27" layer="121" font="vector" ratio="12" rot="SR270">GND</text>
-<text x="3.5" y="53.9" size="1.15" layer="121" font="vector" ratio="15">Polarshield v3.0e
-An open source art project.
-2018.06.09</text>
+<text x="4.5" y="54.9" size="1.5" layer="121" font="vector" ratio="15">Polarshield v3.0e
+2018.06.10</text>
 <text x="74.9" y="64" size="1.27" layer="121" font="vector" ratio="12" rot="SR270">VCC</text>
 <text x="12.7" y="8.7" size="1.27" layer="122" font="vector" ratio="12" rot="SMR270">RESET</text>
 <text x="8.1" y="14.26" size="1.27" layer="121" font="vector" ratio="15">GND</text>
 <text x="8.1" y="26.2" size="1.27" layer="121" font="vector" ratio="15">3.3V</text>
 <text x="2.8" y="17.2" size="1.27" layer="121" font="vector" ratio="15" rot="R180">5V</text>
 <text x="2.9" y="27.4" size="1.27" layer="121" font="vector" ratio="15" rot="R180">5V</text>
+<text x="38.5" y="55" size="1.5" layer="121" font="vector" ratio="15">www.polargraph.co.uk
+An open source art project.</text>
 </plain>
 <libraries>
 <library name="sandy">
