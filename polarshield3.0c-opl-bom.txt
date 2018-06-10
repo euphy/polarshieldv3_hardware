@@ -1,0 +1,58 @@
+Partlist exported from C:/Users/sandy_000/OneDrive/Documents/eagle/Polarshield 3/polarshield3.0c-opl.sch at 15/05/2018 00:03:20
+
+Part           Value                Device                                        Package              Description                          MPN                   PROD_ID    SF_ID     VALUE      
+C1             100nf                CERAMIC-100NF-50V-10%-X7R(0603)               C0603                302010138                            CC0603KRX7R9BB104                          100nf      
+C2             220UF                ALUMINUM-SMD-220UF-16V(D6.3-H7.7MM)           ELECTRO-SMD-C-6MM    302030053                            CS1E221M-CRE77                             220UF      
+C3             100nf                CERAMIC-100NF-50V-10%-X7R(0603)               C0603                302010138                            CC0603KRX7R9BB104                          100nf      
+C4             220UF                ALUMINUM-SMD-220UF-16V(D6.3-H7.7MM)           ELECTRO-SMD-C-6MM    302030053                            CS1E221M-CRE77                             220UF      
+C5             100nf                CERAMIC-100NF-50V-10%-X7R(0603)               C0603                302010138                            CC0603KRX7R9BB104                          100nf      
+C6             220UF                ALUMINUM-SMD-220UF-16V(D6.3-H7.7MM)           ELECTRO-SMD-C-6MM    302030053                            CS1E221M-CRE77                             220UF      
+C7             100nf                CERAMIC-100NF-50V-10%-X7R(0603)               C0603                302010138                            CC0603KRX7R9BB104                          100nf      
+C8             220UF                ALUMINUM-SMD-220UF-16V(D6.3-H7.7MM)           ELECTRO-SMD-C-6MM    302030053                            CS1E221M-CRE77                             220UF      
+D1                                  DIODE-DO214BA                                 DO214BA              DIODE                                                                                      
+EXT_PWR                             M02PTH                                        1X02                 Standard 2-pin 0.1" header. Use with                                                       
+JP3            POWER_JACKPTH_LOCK   POWER_JACKPTH_LOCK                            POWER_JACK_PTH_LOCK  Power Jack                                                 CONN-08197 PRT-00119            
+M1_CONN                             PINHD-1X4/90                                  1X04/90              PIN HEADER                                                                                 
+M1_STEP        YELLOW-0805          SMD-LED-CLEAR-YELLOW(0805)                    LED-0805             304090039                            17-215UYC/S530-A3/TR8                      YELLOW-0805
+M2_CONN                             PINHD-1X4/90                                  1X04/90              PIN HEADER                                                                                 
+M2_STEP        YELLOW-0805          SMD-LED-CLEAR-YELLOW(0805)                    LED-0805             304090039                            17-215UYC/S530-A3/TR8                      YELLOW-0805
+MOTOR_1        A4988BREAKOUT        A4988BREAKOUT                                 A4988BREAKOUT                                                                                                   
+MOTOR_2        A4988BREAKOUT        A4988BREAKOUT                                 A4988BREAKOUT                                                                                                   
+NODEMCU-32S1   NODEMCU-32S          NODEMCU-32S                                   NODEMCU-32S                                                                                                     
+PWR            YELLOW-0805          SMD-LED-CLEAR-YELLOW(0805)                    LED-0805             304090039                            17-215UYC/S530-A3/TR8                      YELLOW-0805
+Q4             BSS138W-7-F          SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23) SOT-23               305030000                            BSS138W-7-F                                BSS138W-7-F
+Q5             BSS138W-7-F          SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23) SOT-23               305030000                            BSS138W-7-F                                BSS138W-7-F
+Q6             BSS138W-7-F          SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23) SOT-23               305030000                            BSS138W-7-F                                BSS138W-7-F
+Q7             BSS138W-7-F          SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23) SOT-23               305030000                            BSS138W-7-F                                BSS138W-7-F
+R1             1K                   SMD-RES-1K-5%-1/10W(0603)                     R0603                301010291                            RC0603JR-071KL                             1K 1/10W   
+R2             10K                  SMD-RES-10K-5%-1/10W(0603)                    R0603                301010293                            RC0603JR-0710KL                            10K 1/10W  
+R4             1K                   SMD-RES-1K-5%-1/10W(0603)                     R0603                301010291                            RC0603JR-071KL                             1K 1/10W   
+R5             1K 1/10W             SMD-RES-1K-5%-1/10W(0603)                     R0603                301010291                            RC0603JR-071KL                             1K 1/10W   
+R6             10K                  SMD-RES-10K-5%-1/10W(0603)                    R0603                301010293                            RC0603JR-0710KL                            10K 1/10W  
+R7             10K                  SMD-RES-10K-5%-1/10W(0603)                    R0603                301010293                            RC0603JR-0710KL                            10K 1/10W  
+R8             1K                   SMD-RES-1K-5%-1/10W(0603)                     R0603                301010291                            RC0603JR-071KL                             1K 1/10W   
+R9             10K                  SMD-RES-10K-5%-1/10W(0603)                    R0603                301010293                            RC0603JR-0710KL                            10K 1/10W  
+R10            10K                  SMD-RES-10K-5%-1/10W(0603)                    R0603                301010293                            RC0603JR-0710KL                            10K 1/10W  
+R11            10K                  SMD-RES-10K-5%-1/10W(0603)                    R0603                301010293                            RC0603JR-0710KL                            10K 1/10W  
+R12            10K                  SMD-RES-10K-5%-1/10W(0603)                    R0603                301010293                            RC0603JR-0710KL                            10K 1/10W  
+R13            10K                  SMD-RES-10K-5%-1/10W(0603)                    R0603                301010293                            RC0603JR-0710KL                            10K 1/10W  
+R14            10K                  SMD-RES-10K-5%-1/10W(0603)                    R0603                301010293                            RC0603JR-0710KL                            10K 1/10W  
+R15            10K                  SMD-RES-10K-5%-1/10W(0603)                    R0603                301010293                            RC0603JR-0710KL                            10K 1/10W  
+R16            1K                   SMD-RES-1K-5%-1/10W(0603)                     R0603                301010291                            RC0603JR-071KL                             1K 1/10W   
+R17            1K                   SMD-RES-1K-5%-1/10W(0603)                     R0603                301010291                            RC0603JR-071KL                             1K 1/10W   
+R18            1K                   SMD-RES-1K-5%-1/10W(0603)                     R0603                301010291                            RC0603JR-071KL                             1K 1/10W   
+R19            1K                   SMD-RES-1K-5%-1/10W(0603)                     R0603                301010291                            RC0603JR-071KL                             1K 1/10W   
+RESET          DTS-6                DTS-6                                         DTS-6                                                                                                           
+RX             YELLOW-0805          SMD-LED-CLEAR-YELLOW(0805)                    LED-0805             304090039                            17-215UYC/S530-A3/TR8                      YELLOW-0805
+SERVO                               PINHD-1X3/90                                  1X03/90              PIN HEADER                                                                                 
+SJ1            SOLDERJUMPERNO       SOLDERJUMPERNO                                SJ_2S-NO             Solder Jumper                                                                              
+SJ2            SOLDERJUMPERTRACE    SOLDERJUMPERTRACE                             SJ_2S-TRACE          Solder Jumper                                                                              
+SJ3            SOLDERJUMPERTRACE    SOLDERJUMPERTRACE                             SJ_2S-TRACE          Solder Jumper                                                                              
+SJ4            SOLDERJUMPERNO       SOLDERJUMPERNO                                SJ_2S-NO             Solder Jumper                                                                              
+SJ5            SOLDERJUMPERTRACE    SOLDERJUMPERTRACE                             SJ_2S-TRACE          Solder Jumper                                                                              
+SJ6            SOLDERJUMPERTRACE    SOLDERJUMPERTRACE                             SJ_2S-TRACE          Solder Jumper                                                                              
+SJ8            T_IRQ_LINK           SOLDERJUMPERNO                                SJ_2S-NO             Solder Jumper                                                                              
+SPARE_BREAKOUT                      PINHD-2X6                                     2X06                 PIN HEADER                                                                                 
+TX             YELLOW-0805          SMD-LED-CLEAR-YELLOW(0805)                    LED-0805             304090039                            17-215UYC/S530-A3/TR8                      YELLOW-0805
+U$2            2.4_TFT_SPI_TOUCH_SD 2.4_TFT_SPI_TOUCH_SD                          2.4_TFT_SPI_TOUCH_SD                                                                                            
+U$3            MINI-360-MP2307      MINI-360-MP2307                               MINI-360-MP2307                                                                                                 

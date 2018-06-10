@@ -1,5 +1,8 @@
 # Eagle automatic backup files #
 ################################
+
 *.s#*
+
 *.b#*
+
 *.l#*
