@@ -2143,9 +2143,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.47" y="9.93" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="30.27" y="8.54" size="1.27" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="SERVO" library="pinhead" package="1X03/90" value="" x="71" y="65" smashed="yes" rot="MR0">
-<attribute name="NAME" x="74.945" y="58.39" size="1.27" layer="26" font="vector" ratio="15" rot="SMR90"/>
-<attribute name="VALUE" x="65.285" y="61.19" size="1.27" layer="28" rot="MR90"/>
+<element name="SERVO" library="pinhead" package="1X03/90" value="" x="71" y="65" smashed="yes">
+<attribute name="NAME" x="67.055" y="58.39" size="1.27" layer="25" font="vector" ratio="15" rot="SR90"/>
+<attribute name="VALUE" x="76.715" y="61.19" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="M1_CONN" library="pinhead" package="1X04/90" value="" x="52" y="65" smashed="yes" rot="MR0">
 <attribute name="NAME" x="55.81" y="57.715" size="1.27" layer="26" font="vector" ratio="12" rot="MR0"/>
@@ -2419,6 +2419,8 @@ design rules under a new name.</description>
 <via x="65" y="22" extent="1-16" drill="0.3048"/>
 <via x="46" y="26" extent="1-16" drill="0.3048"/>
 <via x="22" y="11" extent="1-16" drill="0.3048"/>
+<wire x1="63.7" y1="62.6" x2="65.11" y2="61.19" width="0.6096" layer="1"/>
+<wire x1="65.11" y1="61.19" x2="68.46" y2="61.19" width="0.6096" layer="1"/>
 </signal>
 <signal name="+5V" class="2">
 <contactref element="NODEMCU-32S1" pad="5V"/>
@@ -2682,16 +2684,16 @@ design rules under a new name.</description>
 <contactref element="NODEMCU-32S1" pad="P14"/>
 <contactref element="MOTOR_1" pad="STEP"/>
 <wire x1="60.9219" y1="40.5765" x2="60.97" y2="40.57" width="0.254" layer="16"/>
-<wire x1="54.3212" y1="16.2306" x2="54.3212" y2="13.5788" width="0.254" layer="1"/>
+<wire x1="54.3212" y1="15.6306" x2="54.3212" y2="13.5788" width="0.254" layer="1"/>
 <wire x1="54.3212" y1="13.5788" x2="55.3" y2="12.6" width="0.254" layer="1"/>
 <wire x1="55.3" y1="12.6" x2="55.3212" y2="3.0861" width="0.254" layer="1"/>
-<wire x1="55.3212" y1="16.9164" x2="54.3212" y2="16.2306" width="0.254" layer="16"/>
-<wire x1="66.4083" y1="28.0035" x2="55.3212" y2="16.9164" width="0.254" layer="16"/>
-<wire x1="66.4083" y1="35.0901" x2="66.4083" y2="28.0035" width="0.254" layer="16"/>
-<wire x1="61.0362" y1="40.4622" x2="66.4083" y2="35.0901" width="0.254" layer="16"/>
+<wire x1="55.3212" y1="16.6164" x2="54.3212" y2="15.6306" width="0.254" layer="16"/>
+<wire x1="66.6083" y1="27.9035" x2="55.3212" y2="16.6164" width="0.254" layer="16"/>
+<wire x1="66.6083" y1="34.7901" x2="66.6083" y2="27.9035" width="0.254" layer="16"/>
+<wire x1="61.0362" y1="40.4622" x2="66.6083" y2="34.7901" width="0.254" layer="16"/>
 <wire x1="55.3212" y1="3.0861" x2="55.22" y2="3" width="0.254" layer="1"/>
 <wire x1="61.0362" y1="40.4622" x2="60.97" y2="40.57" width="0.254" layer="16"/>
-<via x="54.3212" y="16.2306" extent="1-16" drill="0.3048"/>
+<via x="54.3212" y="15.6306" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="M1_DIR">
 <contactref element="NODEMCU-32S1" pad="P12"/>
@@ -2701,9 +2703,9 @@ design rules under a new name.</description>
 <wire x1="75.2094" y1="1.9431" x2="58.8932" y2="1.9431" width="0.254" layer="16"/>
 <wire x1="78.2955" y1="5.0292" x2="75.2094" y2="1.9431" width="0.254" layer="16"/>
 <wire x1="78.2955" y1="13.4305" x2="78.2955" y2="5.0292" width="0.254" layer="16"/>
-<wire x1="66.8655" y1="24.8605" x2="78.2955" y2="13.4305" width="0.254" layer="16"/>
-<wire x1="66.8655" y1="37.1475" x2="66.8655" y2="24.8605" width="0.254" layer="16"/>
-<wire x1="63.5508" y1="40.4622" x2="66.8655" y2="37.1475" width="0.254" layer="16"/>
+<wire x1="69.1655" y1="22.5605" x2="78.2955" y2="13.4305" width="0.254" layer="16"/>
+<wire x1="69.1655" y1="34.8475" x2="69.1655" y2="22.5605" width="0.254" layer="16"/>
+<wire x1="63.5508" y1="40.4622" x2="69.1655" y2="34.8475" width="0.254" layer="16"/>
 <wire x1="57.8358" y1="2.9718" x2="57.76" y2="3" width="0.254" layer="16"/>
 <wire x1="63.5508" y1="40.4622" x2="63.51" y2="40.57" width="0.254" layer="16"/>
 </signal>
@@ -2795,11 +2797,14 @@ design rules under a new name.</description>
 <wire x1="54.3207" y1="30.4607" x2="52.4607" y2="30.4607" width="0.254" layer="1"/>
 <wire x1="52.4607" y1="30.4607" x2="52" y2="30" width="0.254" layer="1"/>
 <wire x1="52" y1="30" x2="50.1777" y2="28.4607" width="0.254" layer="1"/>
-<wire x1="62.4935" y1="38.6335" x2="54.3207" y2="30.4607" width="0.254" layer="1"/>
-<wire x1="64.5796" y1="38.6335" x2="62.4935" y2="38.6335" width="0.254" layer="1"/>
-<wire x1="76.9239" y1="50.9778" x2="64.5796" y2="38.6335" width="0.254" layer="1"/>
+<wire x1="61.4935" y1="37.6335" x2="54.3207" y2="30.4607" width="0.254" layer="1"/>
+<wire x1="63.5796" y1="37.6335" x2="61.4935" y2="37.6335" width="0.254" layer="1"/>
 <wire x1="50.1777" y1="28.4607" x2="50.14" y2="28.4" width="0.254" layer="1"/>
 <wire x1="76.9239" y1="50.9778" x2="77" y2="51.07" width="0.254" layer="1"/>
+<wire x1="63.5796" y1="37.6335" x2="65.6335" y2="37.6335" width="0.3048" layer="1"/>
+<wire x1="65.6335" y1="37.6335" x2="71" y2="43" width="0.3048" layer="1"/>
+<wire x1="71" y1="43" x2="71" y2="45.07" width="0.3048" layer="1"/>
+<wire x1="71" y1="45.07" x2="77" y2="51.07" width="0.3048" layer="1"/>
 </signal>
 <signal name="SPI_MOSI">
 <contactref element="NODEMCU-32S1" pad="P23"/>
@@ -2823,9 +2828,9 @@ design rules under a new name.</description>
 <wire x1="76.4667" y1="43.434" x2="76.9239" y2="43.434" width="0.254" layer="1"/>
 <wire x1="61.5791" y1="28.6464" x2="76.4667" y2="43.434" width="0.254" layer="1"/>
 <wire x1="61.5791" y1="27.8035" x2="61.5791" y2="28.6464" width="0.254" layer="1"/>
-<wire x1="61.0933" y1="27.3177" x2="61.5791" y2="27.8035" width="0.254" layer="1"/>
-<wire x1="49.7205" y1="27.3177" x2="61.0933" y2="27.3177" width="0.254" layer="1"/>
-<wire x1="48.8918" y1="28.1464" x2="49.7205" y2="27.3177" width="0.254" layer="1"/>
+<wire x1="60.9933" y1="27.2177" x2="61.5791" y2="27.8035" width="0.254" layer="1"/>
+<wire x1="49.8205" y1="27.2177" x2="60.9933" y2="27.2177" width="0.254" layer="1"/>
+<wire x1="48.8918" y1="28.1464" x2="49.8205" y2="27.2177" width="0.254" layer="1"/>
 <wire x1="48.8918" y1="28.6036" x2="48.8918" y2="28.1464" width="0.254" layer="1"/>
 <wire x1="48.006" y1="29.4894" x2="48.8918" y2="28.6036" width="0.254" layer="1"/>
 <wire x1="39.4621" y1="29.4894" x2="48.006" y2="29.4894" width="0.254" layer="1"/>
@@ -2875,11 +2880,8 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="SCK"/>
 <contactref element="U$2" pad="SD_SCK"/>
 <wire x1="47.706" y1="28.3464" x2="47.6631" y2="28.3464" width="0.254" layer="1"/>
-<wire x1="49.1919" y1="26.8605" x2="47.706" y2="28.3464" width="0.254" layer="1"/>
-<wire x1="70.4088" y1="26.8605" x2="49.1919" y2="26.8605" width="0.254" layer="1"/>
-<wire x1="71.809" y1="28.2607" x2="70.4088" y2="26.8605" width="0.254" layer="1"/>
-<wire x1="71.809" y1="28.6036" x2="71.809" y2="28.2607" width="0.254" layer="1"/>
-<wire x1="76.4667" y1="33.2613" x2="71.809" y2="28.6036" width="0.254" layer="1"/>
+<wire x1="49.3919" y1="26.6605" x2="47.706" y2="28.3464" width="0.254" layer="1"/>
+<wire x1="70.8088" y1="26.6605" x2="49.3919" y2="26.6605" width="0.254" layer="1"/>
 <wire x1="76.9239" y1="33.2613" x2="76.4667" y2="33.2613" width="0.254" layer="1"/>
 <wire x1="47.6631" y1="28.3464" x2="47.6" y2="28.4" width="0.254" layer="1"/>
 <wire x1="76.9239" y1="33.2613" x2="77" y2="33.29" width="0.254" layer="1"/>
@@ -2907,6 +2909,10 @@ design rules under a new name.</description>
 <wire x1="76.4667" y1="33.3756" x2="77" y2="33.29" width="0.254" layer="1"/>
 <wire x1="2.1717" y1="45.1485" x2="3.53395" y2="46.51075" width="0.254" layer="16"/>
 <wire x1="3.53395" y1="46.51075" x2="11.21075" y2="46.51075" width="0.254" layer="16"/>
+<wire x1="70.8088" y1="26.6605" x2="73.6605" y2="26.6605" width="0.3048" layer="1"/>
+<wire x1="73.6605" y1="26.6605" x2="75" y2="28" width="0.3048" layer="1"/>
+<wire x1="75" y1="28" x2="75" y2="31.29" width="0.3048" layer="1"/>
+<wire x1="75" y1="31.29" x2="77" y2="33.29" width="0.3048" layer="1"/>
 </signal>
 <signal name="T_IRQ">
 <contactref element="U$2" pad="T_IRQ"/>
@@ -3193,16 +3199,17 @@ design rules under a new name.</description>
 <wire x1="38.5334" y1="30.8039" x2="34.9331" y2="30.8039" width="0.254" layer="1"/>
 <wire x1="42.7482" y1="35.0187" x2="38.5334" y2="30.8039" width="0.254" layer="1"/>
 <wire x1="54.9783" y1="32.0327" x2="50.4063" y2="32.0327" width="0.254" layer="1"/>
-<wire x1="62.2078" y1="39.2622" x2="54.9783" y2="32.0327" width="0.254" layer="1"/>
-<wire x1="62.2078" y1="46.1202" x2="62.2078" y2="39.2622" width="0.254" layer="1"/>
-<wire x1="68.4949" y1="52.4073" x2="62.2078" y2="46.1202" width="0.254" layer="1"/>
+<wire x1="61.2078" y1="38.2622" x2="54.9783" y2="32.0327" width="0.254" layer="1"/>
 <wire x1="32.4612" y1="28.4607" x2="32.36" y2="28.4" width="0.254" layer="1"/>
 <wire x1="42.7482" y1="35.0187" x2="42.7482" y2="37.9482" width="0.254" layer="1"/>
 <wire x1="42.7482" y1="37.9482" x2="43.2" y2="38.4" width="0.254" layer="1"/>
 <wire x1="43.2" y1="38.4" x2="44.039" y2="38.4" width="0.254" layer="1"/>
 <wire x1="44.039" y1="38.4" x2="50.4063" y2="32.0327" width="0.254" layer="1"/>
-<wire x1="68.4949" y1="52.4073" x2="68.4949" y2="61.1551" width="0.254" layer="1"/>
-<wire x1="68.4949" y1="61.1551" x2="68.46" y2="61.19" width="0.254" layer="1"/>
+<wire x1="73.54" y1="57.4524" x2="73.54" y2="61.19" width="0.3048" layer="1"/>
+<wire x1="61.2078" y1="38.2622" x2="65.2622" y2="38.2622" width="0.3048" layer="1"/>
+<wire x1="65.2622" y1="38.2622" x2="70" y2="43" width="0.3048" layer="1"/>
+<wire x1="70" y1="43" x2="70" y2="53.9124" width="0.3048" layer="1"/>
+<wire x1="70" y1="53.9124" x2="73.54" y2="57.4524" width="0.3048" layer="1"/>
 </signal>
 <signal name="GP_1">
 <contactref element="NODEMCU-32S1" pad="P21"/>
@@ -3248,13 +3255,13 @@ design rules under a new name.</description>
 <via x="32.7184" y="50.3777" extent="1-16" drill="0.3048"/>
 <via x="43.434" y="37.519" extent="1-16" drill="0.3048"/>
 <contactref element="RN3" pad="2"/>
-<wire x1="32.7184" y1="50.3777" x2="32.1223" y2="50.3777" width="0.254" layer="1"/>
 <wire x1="32.1223" y1="50.3777" x2="30.2" y2="52.3" width="0.254" layer="1"/>
 <wire x1="30.2" y1="52.3" x2="30.2" y2="55.5" width="0.254" layer="1"/>
 <wire x1="30.2" y1="55.5" x2="33.7" y2="59" width="0.254" layer="1"/>
 <wire x1="33.7" y1="59" x2="35.4" y2="59" width="0.254" layer="1"/>
 <wire x1="35.4" y1="59" x2="35.6" y2="58.8" width="0.254" layer="1"/>
 <wire x1="35.6" y1="58.8" x2="35.6" y2="58.25" width="0.254" layer="1"/>
+<wire x1="32.7184" y1="50.3777" x2="32.1223" y2="50.3777" width="0.254" layer="1"/>
 </signal>
 <signal name="TX">
 <contactref element="NODEMCU-32S1" pad="TX"/>
