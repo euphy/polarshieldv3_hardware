@@ -19793,7 +19793,7 @@ Source: RS Component / Phycomp</description>
 <part name="TX" library="polargraph3" deviceset="LED" device="CHIPLED_0805"/>
 <part name="RX" library="polargraph3" deviceset="LED" device="CHIPLED_0805"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="D1" library="diode" deviceset="DIODE-" device="DO214BA"/>
+<part name="D1" library="diode" deviceset="DIODE-" device="DO214BA" value="GF1A-E3/67A "/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="MOTOR_2" library="sandy" deviceset="A4988BREAKOUT" device=""/>
@@ -19852,6 +19852,23 @@ Source: RS Component / Phycomp</description>
 <wire x1="139.7" y1="-55.88" x2="7.62" y2="-55.88" width="0.1524" layer="90"/>
 <wire x1="7.62" y1="-55.88" x2="7.62" y2="30.48" width="0.1524" layer="90"/>
 <text x="58.42" y="20.32" size="6.4516" layer="90">Motor 2</text>
+<text x="-281.94" y="142.24" size="6.4516" layer="91">Polarshield v3.0e</text>
+<text x="-281.94" y="132.08" size="6.4516" layer="91">2018.06.15</text>
+<wire x1="-292.1" y1="165.1" x2="147.32" y2="165.1" width="1.016" layer="90"/>
+<wire x1="147.32" y1="165.1" x2="147.32" y2="-63.5" width="1.016" layer="90"/>
+<wire x1="147.32" y1="-63.5" x2="-45.72" y2="-63.5" width="1.016" layer="90"/>
+<wire x1="-45.72" y1="-63.5" x2="-226.06" y2="-63.5" width="1.016" layer="90"/>
+<wire x1="-226.06" y1="-63.5" x2="-292.1" y2="-63.5" width="1.016" layer="90"/>
+<wire x1="-292.1" y1="-63.5" x2="-292.1" y2="99.06" width="1.016" layer="90"/>
+<wire x1="-292.1" y1="99.06" x2="-292.1" y2="165.1" width="1.016" layer="90"/>
+<wire x1="-292.1" y1="99.06" x2="-226.06" y2="99.06" width="1.016" layer="90"/>
+<wire x1="-226.06" y1="99.06" x2="-226.06" y2="-15.24" width="1.016" layer="90"/>
+<wire x1="-226.06" y1="-15.24" x2="-226.06" y2="-63.5" width="1.016" layer="90"/>
+<wire x1="-226.06" y1="-15.24" x2="-144.78" y2="-15.24" width="1.016" layer="90"/>
+<wire x1="-144.78" y1="-15.24" x2="-144.78" y2="99.06" width="1.016" layer="90"/>
+<wire x1="-144.78" y1="99.06" x2="-226.06" y2="99.06" width="1.016" layer="90"/>
+<wire x1="-144.78" y1="-15.24" x2="-45.72" y2="-15.24" width="1.016" layer="90"/>
+<wire x1="-45.72" y1="-15.24" x2="-45.72" y2="-63.5" width="1.016" layer="90"/>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="-193.04" y="73.66"/>
@@ -19883,7 +19900,7 @@ Source: RS Component / Phycomp</description>
 <instance part="GND9" gate="1" x="-104.14" y="119.38"/>
 <instance part="GND10" gate="1" x="-144.78" y="119.38"/>
 <instance part="JP3" gate="G$1" x="-203.2" y="114.3"/>
-<instance part="GND11" gate="1" x="-198.12" y="104.14"/>
+<instance part="GND11" gate="1" x="-198.12" y="109.22"/>
 <instance part="EXT_PWR" gate="G$1" x="-172.72" y="121.92" rot="R180"/>
 <instance part="P+3" gate="1" x="-185.42" y="157.48"/>
 <instance part="C3" gate="G$1" x="-160.02" y="132.08" rot="R180"/>
@@ -20056,7 +20073,7 @@ Source: RS Component / Phycomp</description>
 <wire x1="-187.96" y1="116.84" x2="-198.12" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="-198.12" y1="116.84" x2="-200.66" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="-198.12" y1="106.68" x2="-198.12" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="111.76" x2="-198.12" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="EXT_PWR" gate="G$1" pin="2"/>
 <wire x1="-187.96" y1="119.38" x2="-180.34" y2="119.38" width="0.1524" layer="91"/>
 <junction x="-187.96" y="119.38"/>

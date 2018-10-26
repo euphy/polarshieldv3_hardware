@@ -19791,7 +19791,7 @@ Source: RS Component / Phycomp</description>
 <part name="TX" library="polargraph3" deviceset="LED" device="CHIPLED_0805"/>
 <part name="RX" library="polargraph3" deviceset="LED" device="CHIPLED_0805"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="D1" library="diode" deviceset="DIODE-" device="DO214BA"/>
+<part name="D1" library="diode" deviceset="DIODE-" device="DO214BA" value="GF1A-E3/67A "/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="MOTOR_2" library="sandy" deviceset="A4988BREAKOUT" device=""/>

@@ -2159,7 +2159,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.13" y="64.17" size="1.27" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="32.73" y="60.46" size="1.27" layer="27"/>
 </element>
-<element name="D1" library="diode" package="DO214BA" value="" x="17.6" y="27" rot="R90"/>
+<element name="D1" library="diode" package="DO214BA" value="GF1A-E3/67A " x="17.6" y="27" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.864" y="24.36" size="1.27" layer="25" ratio="10" rot="R90"/>
+</element>
 <element name="MOTOR_2" library="sandy" package="A4988BREAKOUT" value="A4988BREAKOUT" x="20" y="52"/>
 <element name="SJ4" library="polargraph3" package="SJ_2S-NO" value="SOLDERJUMPERNO" x="27" y="43" smashed="yes" rot="MR270"/>
 <element name="SJ5" library="polargraph3" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="24" y="43" smashed="yes" rot="MR270"/>
