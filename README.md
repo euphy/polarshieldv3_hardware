@@ -11,5 +11,5 @@ Polarshield v3 is an aggregation board for connecting
 * Touch panel
 * SD card
 
-It has not been manufactured yet!
+v3.0e is the currently manufactured version that's inside recent PolargraphSD machines.
 
