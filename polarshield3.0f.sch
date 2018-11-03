@@ -1903,10 +1903,10 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="1.27" y1="3.81" x2="13.97" y2="3.81" width="0.127" layer="27"/>
 <wire x1="13.97" y1="3.81" x2="12.7" y2="2.54" width="0.127" layer="27"/>
 <wire x1="13.97" y1="3.81" x2="12.7" y2="5.08" width="0.127" layer="27"/>
-<smd name="GND_IN" x="-1" y="10.4" dx="2.54" dy="2.54" layer="1" rot="R90"/>
-<smd name="GND_OUT" x="16.5" y="10.4" dx="2.54" dy="2.54" layer="1"/>
-<smd name="+V_IN" x="-1" y="-1" dx="2.54" dy="2.54" layer="1"/>
-<smd name="+V_OUT" x="16.5" y="-1" dx="2.54" dy="2.54" layer="1"/>
+<smd name="GND_IN" x="-0.365" y="9.765" dx="2.54" dy="2.54" layer="1" rot="R90"/>
+<smd name="GND_OUT" x="15.865" y="9.765" dx="2.54" dy="2.54" layer="1"/>
+<smd name="+V_IN" x="-0.365" y="-0.365" dx="2.54" dy="2.54" layer="1"/>
+<smd name="+V_OUT" x="15.865" y="-0.365" dx="2.54" dy="2.54" layer="1"/>
 </package>
 <package name="2.4_TFT_SPI_TOUCH_SD">
 <wire x1="0" y1="0" x2="0" y2="10.41" width="0.127" layer="21"/>
@@ -2544,6 +2544,17 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 </gates>
 <devices>
 <device name="" package="MINI-360-MP2307">
+<connects>
+<connect gate="G$1" pin="DC_IN" pad="+V_IN"/>
+<connect gate="G$1" pin="DC_OUT" pad="+V_OUT"/>
+<connect gate="G$1" pin="GND_IN" pad="GND_IN"/>
+<connect gate="G$1" pin="GND_OUT" pad="GND_OUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MINI-360-MP2307_T" package="MINI-360-MP2307">
 <connects>
 <connect gate="G$1" pin="DC_IN" pad="+V_IN"/>
 <connect gate="G$1" pin="DC_OUT" pad="+V_OUT"/>
@@ -19776,7 +19787,7 @@ Source: RS Component / Phycomp</description>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C4" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="220uF"/>
-<part name="U$3" library="polargraph3" deviceset="MINI-360-MP2307" device=""/>
+<part name="U$3" library="polargraph3" deviceset="MINI-360-MP2307" device="MINI-360-MP2307_T" value="MINI-360-MP2307MINI-360-MP2307_T"/>
 <part name="C5" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C6" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="220uF"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="M0805" value="1k"/>
